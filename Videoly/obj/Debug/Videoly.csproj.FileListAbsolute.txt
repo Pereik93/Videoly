@@ -80,3 +80,5 @@ C:\Users\perol\Documents\GitHub\Videoly\Videoly\bin\Microsoft.Owin.Security.Micr
 C:\Users\perol\Documents\GitHub\Videoly\Videoly\obj\Debug\Videoly.csprojResolveAssemblyReference.cache
 C:\Users\perol\Documents\GitHub\Videoly\Videoly\obj\Debug\Videoly.dll
 C:\Users\perol\Documents\GitHub\Videoly\Videoly\obj\Debug\Videoly.pdb
+C:\Users\perol\Documents\GitHub\Videoly\Videoly\obj\Debug\Videoly.Migrations.InitialModel.resources
+C:\Users\perol\Documents\GitHub\Videoly\Videoly\obj\Debug\Videoly.csproj.GenerateResource.Cache
