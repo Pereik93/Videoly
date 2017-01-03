@@ -10,6 +10,22 @@ namespace Videoly.Controllers
 {
     public class MoviesController : Controller
     {
+        public ViewResult Index()
+         {
+             var movies = GetMovies();
+ 
+             return View(movies);    
+         }
+ 
+         private IEnumerable<Movie> GetMovies()
+         {
+             return new List<Movie>
+             {
+                 new Movie { Id = 1, Name = "Shrek" },
+                 new Movie { Id = 2, Name = "Wall-e" }
+             };
+         }
+
         // GET: Movies/Random
         public ActionResult Random()
         {
@@ -23,7 +39,7 @@ namespace Videoly.Controllers
             var ViewModel = new RandomMovieViewModel
             {
                 Movie = movie,
-                Customer = customers
+                Customers = customers
             };
 
             return View(ViewModel);
